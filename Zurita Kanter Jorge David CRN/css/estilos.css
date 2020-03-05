@@ -1,0 +1,150 @@
+html, body {
+  font-family: Helvetica;
+  padding: 0px;
+  margin: 0px;
+  font-size: 12px;
+}
+
+nav {
+  background-color: red;
+  display: flex;
+  padding: 10px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li{
+  padding-left: 20px;
+  list-style: none;
+}
+
+nav li a{
+  color: white;
+  text-decoration: none;
+  }
+
+  nav li a:hover {
+    color: black;
+  }
+
+.main_section {
+  padding: 120px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.products {
+  background-image: url("../images/bck_curve.png");
+  max-height: 500px;
+  background-size: cover;
+  background-position: center top;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.product{
+  padding: 10px;
+  margin-top: -75px;
+}
+
+.product .content{
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0 0 2px #cecece;
+  text-align: center;
+}
+
+.img_content{
+  text-align: center;
+  padding: 10px;
+}
+
+.main_button{
+  background-color: red;
+  width: 100px;
+  padding: 10px;
+  font-size: 12px;
+  color: white;
+  border: 0px;
+}
+
+.img {
+  padding: 30px;
+  justify-content: center;
+  display: flex;
+}
+
+.imgs {
+
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.img_content2 {
+  text-align: center;
+  padding: 10px;
+}
+
+.main_section2{
+  background-image: url("../images/bck2_curve.png");
+  max-height: 500px;
+  background-size: cover;
+  background-position: bottom;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+
+
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: blue;
+}
+
+.doodles{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.doodle .content3{
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 0 2px #cecece;
+  text-align: center;
+}
+
+nav2 {
+  background-color: red;
+  display: flex;
+  padding: 10px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav2 ul{
+  display: flex;
+}
+
+nav2 li{
+  padding-left: 20px;
+  list-style: none;
+}
+
+nav2 li a{
+  color: white;
+  text-decoration: none;
+}
+
+nav2 li a:hover{
+  color: black;
+}
